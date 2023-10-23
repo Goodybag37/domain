@@ -11,24 +11,18 @@
     <title>Document</title>
 </head>
 <body>
-   <div class="collapsible collapsible--expanded">
-    <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-        
-        
-        </svg><svg class="icon collapsible__chevron">
-            <use xlink:href="images/sprite.svg#chevron"></use>
-          </svg>
-        
-        
-        
-       
-
-    </header>
-    <div class="collapsible__content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, aut?
-    </div>
-   </div>
-   <script src="js/main.js"></script>
+    <nav class="nav collapsible ">
+        <a class="nav__brand" href="/"><img src="images/logo.svg" alt=""></a>
+        </svg><svg class="icon icon--white nav__toggler">
+            <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="#">Hosting</a></li>
+            <li class="nav__item"><a href="#">Vps</a></li>
+            <li class="nav__item"><a href="#">Domain</a></li>
+            <li class="nav__item"><a href="#">Pricing</a></li>
+        </ul>
+       </nav>
+<script src="js/main.js"></script>
 </body>
 </html>
