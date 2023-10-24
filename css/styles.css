@@ -19,7 +19,7 @@ html{
 }
 
 body{
-    font-family: inter, Arial, Helvetica, sans-serif;
+    font-family:Inter, Arial, Helvetica, sans-serif;
     color: var(--color-body);
     font-size: 2.4rem;
     line-height: 1.1;
@@ -753,5 +753,11 @@ a{
 .block-plans .card{
     max-width: 500px;
     margin:0 auto;
+}
+
+/* features */
+
+.feature__heading{
+    margin:1rem 0;
 }
 
