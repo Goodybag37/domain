@@ -200,7 +200,7 @@ a{
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding:2rem 3rem;
+    padding:2rem 4vw;
     border:0;
     text-align: center;
     outline: 0;
@@ -297,6 +297,7 @@ a{
     border: 0;
     flex-grow:1;
     padding:1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn{
@@ -439,6 +440,7 @@ a{
 
 .quote__text::before{
     content: open-quote;
+   
 }
 
 .quote__text::after{
@@ -533,6 +535,16 @@ a{
     color:#fff;
 }
 
+.callout-box--footer{
+    position:relative;
+    transform: translateY(50%);
+    width: auto;
+    max-width:976px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+
 .callout__heading{
     color:#fff;
     margin-top: 0;
@@ -603,6 +615,8 @@ a{
     text-align: center;
     margin-bottom: 4rem;
 }
+
+
 
 .container{
     max-width: 1140px;
@@ -738,8 +752,9 @@ a{
 }
 
 .block-domain__prices{
+    color: var(--color-heading);
    display: grid;
-   grid-template-columns: repeat(3, 1fr); 
+   grid-template-columns: repeat(2, 1fr); 
    grid-template-rows: repeat(2, 6rem);
    font-size: 2rem;
    font-weight: 600;
@@ -856,6 +871,18 @@ a{
 .footer__section .list{
     margin: 0;
 }
+.footer__margin{
+    margin-top: 10rem;
+}
+@media screen and (max-width: 768px) {
+    .footer__margin{
+        margin-top: 15rem;
+}
+}
+
+
+
+
 
 @media screen and (min-width: 768px) {
     .footer__sections{
