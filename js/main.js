@@ -1,5 +1,6 @@
+import _ from "lodash"
 const collapsibles = document.querySelectorAll(".collapsible");
-collapsibles.forEach((item) =>
+_.forEach(collapsibles, (item) =>
   item.addEventListener("click", function () {
     this.classList.toggle("collapsible--expanded");
   })
