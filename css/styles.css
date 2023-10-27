@@ -710,6 +710,7 @@ a{
         font-size: 1.6rem;
         max-height: 100%;
         opacity: 1;
+       
     }
 
     .nav__item{
@@ -718,8 +719,26 @@ a{
 
     .nav__brand{
         transform: translateY(5px);
+        margin: 0 1rem;
+        
     }
 }
+
+@media screen and (min-width: 1202px) {
+    .nav__list{
+        transform: translateX(-50%);
+    }
+
+}
+@media screen and (min-width: 1330px){
+    .nav__brand{
+        transform:translateX(6vw);}
+    
+}
+
+
+
+
 
 /* hero */
 .hero__tagline{
